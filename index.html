@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="fr">
   <head>
@@ -42,145 +41,18 @@
           </ul>
         </div>
       </nav>
+      <nav>
+        <ul>
+          <li>logo</li>
+          <img src=/img/logo.png alt="logo"/>
+          <li>actualité</li>
+          <li>boutique</li>
+          <li>boutique</li>
+          <li>où sommes-nous?</li>
+          <li>panier</li>
+          <li>profil</li>
+        </ul>
+      </nav>
     </header>
-    <div class="main-page">
-      <img src="https://www.renaultgroup.com/wp-content/uploads/2022/10/r-dam_1441432.jpg" class="background main fs" alt="Alpine">
-    </div>
-    <div class="nd-container">
-      <section class="comparisonSection">
-        <div class="comparisonImage beforeImage">
-          <img src="https://cdn.group.renault.com/alp/master/alpine-new-cars/editorial/concept-cars/dream-racer/editorial/alpine-alpenglow-003.jpg.ximg.large.webp/866cbb9210.webp" alt="before" style="object-fit: cover;">
-          <h1 style="color: red; z-index: 4000;">Image 1</h1>
-        </div>
-        <div class="comparisonImage afterImage">
-          <img src="https://cdn.group.renault.com/alp/master/alpine-new-cars/editorial/concept-cars/dream-racer/editorial/alpine-alpenglow-002.jpg.ximg.large.webp/5244a33cc7.webp" alt="after" style="object-fit: cover;">
-        </div>
-      </section>
-      <div class="nd-container">
-        <!--<div class="video-container">
-          <video src="car.mp4" playsinline="true" webkit-playsinline="true" preload="auto" muted="muted" class="video-background">
-          </video>
-        </div>-->
-      </div>
-    </div>
   </body>  
-
-  <script type="text/javascript">
-    gsap.utils.toArray(".comparisonSection").forEach(section => {
-	    let tl = gsap.timeline({
-        scrollTrigger: {
-          trigger: section,
-          start: "center center",
-          // makes the height of the scrolling (while pinning) match the width, thus the speed remains constant (vertical/horizontal)
-          end: () => "+=" + section.offsetWidth, 
-          scrub: true,
-          pin: true,
-          anticipatePin: 1
-        },
-			  defaults: {ease: "none"}
-		  });
-    // animate the container one way...
-    tl.fromTo(section.querySelector(".afterImage"), { xPercent: 100, x: 0}, {xPercent: 0})
-      // ...and the image the opposite way (at the same time)
-      .fromTo(section.querySelector(".afterImage img"), {xPercent: -100, x: 0}, {xPercent: 0}, 0);
-  });
-
-  console.clear();
-/* The encoding is super important here to enable frame-by-frame scrubbing. */
-
-// ffmpeg -i ~/Downloads/Toshiba\ video/original.mov -movflags faststart -vcodec libx264 -crf 23 -g 1 -pix_fmt yuv420p output.mp4
-// ffmpeg -i ~/Downloads/Toshiba\ video/original.mov -vf scale=960:-1 -movflags faststart -vcodec libx264 -crf 20 -g 1 -pix_fmt yuv420p output_960.mp4
-
-const video = document.querySelector(".video-background");
-let src = video.currentSrc || video.src;
-console.log(video, src);
-
-/* Make sure the video is 'activated' on iOS */
-function once(el, event, fn, opts) {
-  var onceFn = function (e) {
-    el.removeEventListener(event, onceFn);
-    fn.apply(this, arguments);
-  };
-  el.addEventListener(event, onceFn, opts);
-  return onceFn;
-}
-
-once(document.documentElement, "touchstart", function (e) {
-  video.play();
-  video.pause();
-});
-
-/* ---------------------------------- */
-/* Scroll Control! */
-
-gsap.registerPlugin(ScrollTrigger);
-
-let tl = gsap.timeline({
-  defaults: { duration: 1 },
-  scrollTrigger: {
-    trigger: "#container",
-    start: "top top",
-    end: "bottom bottom",
-    scrub: true
-  }
-});
-
-once(video, "loadedmetadata", () => {
-  tl.fromTo(
-    video,
-    {
-      currentTime: 0
-    },
-    {
-      currentTime: video.duration || 1
-    }
-  );
-});
-
-/* When first coded, the Blobbing was important to ensure the browser wasn't dropping previously played segments, but it doesn't seem to be a problem now. Possibly based on memory availability? */
-setTimeout(function () {
-  if (window["fetch"]) {
-    fetch(src)
-      .then((response) => response.blob())
-      .then((response) => {
-        var blobURL = URL.createObjectURL(response);
-
-        var t = video.currentTime;
-        once(document.documentElement, "touchstart", function (e) {
-          video.play();
-          video.pause();
-        });
-
-        video.setAttribute("src", blobURL);
-        video.currentTime = t + 0.01;
-      });
-  }
-}, 1000);
-  </script>
 </html>
-=======
-<!doctype html>
-  <html lang="fr">
-    <head>
-      <meta charset="utf-8">
-      <title>ivison</title>
-      <link rel="stylesheet" href="CSS/style.css">
-      <script src="script.js"></script>
-    </head>
-  <body>
-    <nav>
-      <ul>
-        <li>logo</li>
-        <img src=/img/logo.png alt="logo"/>
-        <li>actualité</li>
-        <li>boutique</li>
-        <li>boutique</li>
-        <li>où sommes-nous?</li>
-        <li>panier</li>
-        <li>profil</li>
-      </ul>
-    </nav>
-    
-   </body>
- </html>
->>>>>>> 3760af7ddf29d33bf875261125df4a5517fb6a85
