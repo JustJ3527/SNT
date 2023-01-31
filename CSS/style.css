@@ -84,6 +84,7 @@ nav ul {
   list-style-type: none;
   font-size: 20px;
   height: 60px;
+  cursor: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAALCAYAAAAeEY8BAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC3SURBVDhPvZJhCsMgDIW1+MtTeIX1Dt4f3HWEzWRPiZlS20I/CJrWF/UZM+Ajwzkn8xXk+lF0WIztx76/TEpvZGNyzqTTxfhbOfAvm1C0mDG2K3QkrqgijSv6zXufMD8FNqMLsIurmyvYAYJdOFsET0EcWi8RDtitTjA+Ce9ZD3CLi/Yz8ubLNsJC7dqSXmulA1Z25wxaE0JAdp/R208bUjYPRs0d7R9UrEWMkYuvUA7QaREDjPkCAsdMPep/+hkAAAAASUVORK5CYII="), pointer;
 }
 nav ul li.bg {
   padding: 0 15px 0 8px;
