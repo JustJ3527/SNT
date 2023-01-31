@@ -25,16 +25,12 @@ html {
   overflow-x: hidden;
   font-family: var(--primary-font);
   background-color: var(--white);
-}
-
-body {
   cursor: var(--cursor-1);
 }
 
 nav {
   position: fixed;
   width: 100%;
-  height: 50px;
   z-index: 10000;
 }
 
@@ -63,10 +59,7 @@ nav a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.no-hover {
-  
+  height: 100%;
 }
 
 .no-hover:hover {
@@ -75,7 +68,7 @@ nav a {
 
 nav ul li {
   margin: 0 15px;
-  padding: 20px 10px;
+  padding: 20px 35px;
   cursor: pointer;
   opacity: 100%;
   transition: all .3s;
@@ -83,13 +76,12 @@ nav ul li {
 }
 
 nav ul li:hover {
-  opacity: 70%;
+  background-color: var(--secondary-color);
 }
 
 nav ul {
   list-style-type: none;
   font-size: 20px;
-  height: 60px;
 }
 nav ul li.bg {
   padding: 0 15px 0 8px;
@@ -107,4 +99,13 @@ nav ul li.bg {
 
 a {
   cursor: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAALCAYAAAAeEY8BAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC3SURBVDhPvZJhCsMgDIW1+MtTeIX1Dt4f3HWEzWRPiZlS20I/CJrWF/UZM+Ajwzkn8xXk+lF0WIztx76/TEpvZGNyzqTTxfhbOfAvm1C0mDG2K3QkrqgijSv6zXufMD8FNqMLsIurmyvYAYJdOFsET0EcWi8RDtitTjA+Ce9ZD3CLi/Yz8ubLNsJC7dqSXmulA1Z25wxaE0JAdp/R208bUjYPRs0d7R9UrEWMkYuvUA7QaREDjPkCAsdMPep/+hkAAAAASUVORK5CYII="), pointer;
+}
+
+.logo {
+  height: 100%;
+}
+
+li.logo {
+  padding: 5px 10px;
+  height: 62px;
 }
