@@ -11,7 +11,7 @@
   --primary-color: #6897ad;
   --secondary-color: #c36924;
   --cursor-1: url("https://www.cjoint.com/doc/23_01/MAFmjs27hMc_Plan-de-travail-3-3-.png") 32 15, auto;
-  --cursor-2: url("https://cdn.glitch.global/b305e357-23b0-4a91-92e9-c5fa249a3654/cursor2.png?v=1675201144039") 33 16, pointer;
+  --cursor-2: url("https://cdn.glitch.global/b305e357-23b0-4a91-92e9-c5fa249a3654/Black_cursor.png?v=1675268508538"), pointer;
 }
 
 
@@ -62,6 +62,7 @@ nav a {
 
 .no-hover:hover {
   opacity: 100% !important;
+  background-color: transparent;
 }
 
 nav ul li {
