@@ -156,3 +156,21 @@ h4.product-name {
 .container-text {
   padding: 10px 20%;
 }
+
+#pics {
+  width: 100%;
+  height: 100%;
+}
+
+.exemple-img {
+  height: 380px;
+  border-radius: 8px;
+  margin-right: -15px;
+  position: relative;
+}
+
+.glasses-img {
+  width: 400px;
+  position: absolute;
+  right: inherit;
+}
