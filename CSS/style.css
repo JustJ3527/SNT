@@ -125,6 +125,10 @@ li.logo {
   padding: 80px 15px 30px 15px;
 }
 
+.container-2-us {
+   background-color: var(--primary-color);
+}
+
 #left, #right {
   width: 50%;
 }
