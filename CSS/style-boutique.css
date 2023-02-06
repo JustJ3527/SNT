@@ -1,3 +1,18 @@
-img {
+*{
+  --secondary-font : 'Faster One', cursive;
+  --primary-font : 'Bakbak One', cursive;
+  --black : #434343;
+  --white : #fff;
+  --primary-color: #6897ad;
+  --secondary-color: #c36924;
+  --cursor-1: url("https://www.cjoint.com/doc/23_01/MAFmjs27hMc_Plan-de-travail-3-3-.png%22) 32 15, auto;
+  --cursor-2: url("https://cdn.glitch.global/b305e357-23b0-4a91-92e9-c5fa249a3654/Black_cursor.png?v=1675268508538%22), pointer;
+}
+.glasses-boutique {
     margin: 20px;
+    width: 25%;
+    height: auto;
   }
+.container-1-boutique {
+  background-color: var(--primary-color);
+}
