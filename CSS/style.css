@@ -178,3 +178,16 @@ h4.product-name {
   position: absolute;
   right: inherit;
 }
+
+.container-1-us {
+  background-color: var(--primary-color);
+}
+
+.img-first-glasses {
+  width: 100%;
+}
+
+.paragrph-infos {
+  font-size: 20px;
+  text-align: justify;
+}
