@@ -121,7 +121,7 @@ li.logo {
   background-color: var(--secondary-color);
 }
 
-.container-1, .container-2 {
+.container-1, .container-2, .container-all {
   padding: 80px 15px 30px 15px;
 }
 
