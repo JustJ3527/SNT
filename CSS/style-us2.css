@@ -1,0 +1,26 @@
+.container-us {
+    padding-top: 60px;
+}
+
+.img-acceuil-us {
+    max-width: 100%;
+    min-width: 100%;
+    height: 65vh;
+    object-fit: cover;
+    position: absolute;
+}
+
+h1.title-us-2 {
+    font-size: 80px;
+    color: var(--white);
+    -webkit-text-stroke: 1px #000;
+    margin: 0;
+}
+
+.container-text-1-us {
+    position: relative;
+    margin: 20vh 50px;
+    top: auto;
+    bottom: auto;
+    max-width: 60%;
+}
