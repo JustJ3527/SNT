@@ -34,7 +34,7 @@ body {
     display: block;
     text-align: center;
     border: none;
-    cursor: pointer;
+    cursor: var(--cursor-2);
     filter: none;
     transition: all .5s;
 }
@@ -63,10 +63,10 @@ body {
 }
 
 .login-container h6 {
-    margin: 2px 15px;
+    margin: 2px 15px 15px 15px;
     color: #656565;
     text-decoration: underline;
-    cursor: pointer;
+    cursor: var(--cursor-2);
     font-size: 13px;
     font-weight: 100;
 }
