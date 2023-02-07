@@ -1,5 +1,4 @@
 .glasses-us{
-    margin: 20px;
-    width: 100%;
+    width: 50%;
     height: auto;
   }
