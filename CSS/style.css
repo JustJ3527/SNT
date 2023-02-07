@@ -181,6 +181,7 @@ h4.product-name {
   right: 250px;
   top: 121px;
   rotate: 10deg;
+  -webkit-transform: rotate(10deg);
 }
 
 .container-1-us {
@@ -198,7 +199,7 @@ h4.product-name {
 }
 
 .img-first-glasses {
-  width: 100%;
+  width: 60%;
 }
 
 .paragrph-infos {
