@@ -4,7 +4,7 @@
     width: 50%;
     height: auto;
   }
-..container-1 -boutique {
+..container-1-boutique {
   background-color: var(--primary-color);
   position: relative;
   display: flex;
