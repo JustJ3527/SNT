@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--Icon-->
+      <link rel="icon" href="https://cdn.glitch.global/b305e357-23b0-4a91-92e9-c5fa249a3654/Plan-de-travail-3.ico?v=1675109602824">
+
+      <!--install ScrollTrigger-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+
+      <!-- install Gsap ScrollTrigger-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"
+      integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"
+      integrity="sha512-Q+G390ZU2qKo+e4q+kVcJknwfGjKJOdyu5mVMcR95NqL6XaF4lY4nsSvIVB3NDP54ACsS9rqhE1DVqgpApl//Q=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+      <!--install AwesomeFont-->
+      <script src="https://kit.fontawesome.com/2dd49550a9.js" crossorigin="anonymous"></script>
+      
+      <!--link CSS-->
+      <link href="CSS/reset.css" rel="stylesheet" type="text/css">
+      <link href="CSS/style.css" rel="stylesheet" type="text/css">
+      <link href="CSS/style-login.css" rel="stylesheet" type="text/css">
+      
+      <title>Ivison®--Connexion/Inscription</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+            <ul role="list">
+                <li class="no-hover logo"><a href="index.html"><img src="https://cdn.glitch.global/b305e357-23b0-4a91-92e9-c5fa249a3654/logo-borderbox.svg?v=1675198816858" alt="logo" class="logo"/></a></li>
+                <div role="separator" style="display: flex;">
+                <li listitem="listitem" ><a href="actu.html">Actualités</a></li>
+                <li role="listitem"><a href="boutique.html">Boutique</a></li>
+                <li role="listitem"><a href="us.html">Qui sommes-nous ?</a></li>
+                </div>
+                <div style="display: flex;">
+                <li class="bg no-hover"><a href="#"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a></li>
+                <li class="bg no-hover"><a href="login.html"><i class="fa-solid fa-circle-user"></i></a></li>
+                </div>
+            </ul>
+            </div>
+        </nav>
+    </header>  
+    <section id="center-login">
+        <div class="display-login">
+            <img src="https://cdn.glitch.global/b305e357-23b0-4a91-92e9-c5fa249a3654/logo-borderbox.svg?v=1675198816858" alt="logo" width="120px"/>
+            <div class="login-container">
+                <h1>Se connecter</h1>
+                <h5>Email</h5>
+                <input type="email" aria-label="email" id="email" class="email-input btn" name="email">
+                <h5>Mot de passe</h5>
+                <input type="password" aria-label="password" id="password" class="password-input btn" name="password">
+                <h6>S'inscrire</h6>
+                <input type="submit" name="se connecter" value="Sign in" class="login-btn btn" aria-label="login">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
