@@ -1,0 +1,5 @@
+.glasses-boutique {
+    margin: 10px;
+    width: 50%;
+    height: auto;
+  }
