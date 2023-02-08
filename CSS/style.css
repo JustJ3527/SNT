@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Faster+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
 /* font-family: 'Faster One', cursive; */
 
 * {
 
   --secondary-font : 'Faster One', cursive;
-  --primary-font : 'Bakbak One', cursive;
+  --primary-font : monospace;
+  --third-font : 'Bakbak One', cursive;
   --black : #434343;
   --white : #fff;
   --primary-color: #6897ad;
@@ -73,6 +75,7 @@ nav ul li {
   opacity: 100%;
   transition: all .3s;
   cursor: var(--cursor-2);
+  font-weight: 900;
 }
 
 nav ul li:hover {
