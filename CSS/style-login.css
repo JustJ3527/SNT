@@ -62,7 +62,7 @@ body {
     margin: 10px 15px;
 }
 
-.login-container h6 {
+.login-container h6 a {
     margin: 2px 15px 15px 15px;
     color: #656565;
     text-decoration: underline;
@@ -73,4 +73,14 @@ body {
 
 #center-login {
     padding-top: 80px;
+}
+
+.newsletter-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.newsletter-container input {
+    margin: 0;
 }
