@@ -14,3 +14,7 @@
 .titre-glasses {
   font-size: 50px;
 }
+.display {
+  display: flex; 
+  flex-direction: column;
+}
