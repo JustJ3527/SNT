@@ -36,7 +36,7 @@ h1.title-us-2 {
 
 .part-2-x-us {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     flex-wrap: wrap;
     justify-content: center;
     margin: 20px 10px 10vh 10px;
@@ -62,7 +62,8 @@ h1.title-us-2 {
     width: 50%;
     padding: 0 20px;
     max-width: 500px;
-    height: 370px;
+    min-height: 370px;
+    max-height: 400px;
 }
 
 .container-2-2-us {
@@ -94,7 +95,7 @@ h1.title-us-2 {
 }
 
 .text-container-us p {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 @media screen and (max-width: 1131px){
