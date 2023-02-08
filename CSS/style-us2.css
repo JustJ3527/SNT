@@ -50,6 +50,14 @@ h1.title-us-2 {
     flex-direction: row-reverse;
 }
 
+.part-2-3-us {
+    flex-direction: row;
+}
+
+.part-2-4-us {
+    flex-direction: row-reverse;
+}
+
 .img-container-us, .text-container-us {
     width: 50%;
     padding: 0 20px;
@@ -61,6 +69,7 @@ h1.title-us-2 {
     background-color: var(--primary-color);
     padding: 75px 20px;
 }
+
 
 .img-container-us {
     background-color: #fff;
