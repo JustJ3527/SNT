@@ -26,3 +26,8 @@ h1.title-us-2 {
     left: 50px;
     max-width: 55%;
 }
+
+.container-2-us {
+    background-color: var(--primary-color);
+    padding: 15px 20px;
+}
