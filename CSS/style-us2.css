@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+
 .container-us {
     padding-top: 60px;
 }
@@ -30,4 +32,73 @@ h1.title-us-2 {
 .container-2-us {
     background-color: var(--primary-color);
     padding: 15px 20px;
+}
+
+.part-2-x-us {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 10px 10vh 10px;
+}
+
+.part-2-1-us {
+    flex-direction: row;
+}
+
+.part-2-2-us {
+    flex-direction: row-reverse;
+}
+
+.img-container-us, .text-container-us {
+    width: 50%;
+    padding: 0 20px;
+    max-width: 500px;
+    height: 370px;
+}
+
+.container-2-2-us {
+    background-color: var(--primary-color);
+    padding: 75px 20px;
+}
+
+.img-container-us {
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.vide-2-us {
+    width: 70px;
+}
+
+.text-container-us h3 {
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.text-container-us h2 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.text-container-us p {
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1131px){
+    .part-2-1-us, .part-2-2-us, .part-2-3-us, .part-2-4-us {
+        flex-direction: column;
+    }
+
+    .text-container-us {
+        margin-bottom: 25px;
+    }
+
+    .img-container-us, .text-container-us {
+        width: 90%;
+        max-width: 95%;
+    }
 }
