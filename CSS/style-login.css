@@ -49,6 +49,11 @@ body {
     margin: 10px 15px;
     padding: 10px 12px;
     font-weight: 100;
+    border: solid 1px #000;
+}
+
+.btn:focus-visible{
+    border: solid 2px #000;
 }
 
 .login-container h5 {
