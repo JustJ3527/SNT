@@ -14,6 +14,7 @@
     background-image: url("https://cdn.glitch.global/b305e357-23b0-4a91-92e9-c5fa249a3654/acceuile-imhg.png?v=1675872096186");
     background-position: center;
     background-position-y: -465px;
+    background-repeat: no-repeat;
 }
 
 h1.title-us-2 {
@@ -111,4 +112,32 @@ h1.title-us-2 {
         width: 90%;
         max-width: 95%;
     }
+}
+
+.social-media-container {  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.social-media-container ul li {
+    list-style-type: none;
+    margin: 20px;
+    font-size: 40px;
+}
+
+.hz {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.separator {
+    width: 90%;
+    height: 0;
+    border: solid 2px #000;
+    border-radius: 8px;
+    margin: 15px 0;
 }
