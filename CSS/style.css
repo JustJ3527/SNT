@@ -10,6 +10,7 @@
   --third-font : 'Bakbak One', cursive;
   --black : #434343;
   --white : #fff;
+  --grey: #e9e9e9;
   --primary-color: #6897ad;
   --secondary-color: #c36924;
   --cursor-1: url("https://www.cjoint.com/doc/23_01/MAFmjs27hMc_Plan-de-travail-3-3-.png") 32 15, auto;
@@ -121,8 +122,8 @@ li.logo {
 }
 
 .container-2 {
-  background-color: var(--secondary-color);
-  padding: 80px 69px 30px 69px !important;
+  background-color: var(--grey);
+  padding: 20px 0 !important;
 }
 
 .container-1, .container-2, .container-all {
@@ -269,7 +270,7 @@ h4.product-name-1 {
 .containers-4-index {
   width: 48%;
   height: auto;
-  aspect-ratio: 4/3;
+  aspect-ratio: 6/4;
   margin: 10px;
   display: flex;
   align-items: end;
@@ -304,13 +305,16 @@ h4.product-name-1 {
 }
 
 .container-2-index {
-  background-image: url(https://cdn.glitch.global/b305e357-23b0-4a91-92e9-c5fa249a3654/ivisionxrayban.png?v=1676050486370);
+  background-image: url(https://cdn.glitch.global/a37366a2-184f-489c-9974-51317d64021e/Sans%20titre.png?v=1676052241379);
 }
 
 .container-title-index {
   position: relative;
-  background: linear-gradient(0deg, #00000085, transparent);
   padding: 132px 10px 25px 10px;
   width: 100%;
   text-align: center;
+}
+
+.color-black {
+  color: #000 !important;
 }
