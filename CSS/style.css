@@ -279,7 +279,6 @@ h4.product-name-1 {
   background-size: cover;
   border-radius: 0;
   cursor: var(--cursor-2);
-  border: solid 1px #0000002f;
 }
 
 .containers-4-index h3.event-title {
@@ -287,8 +286,8 @@ h4.product-name-1 {
   text-transform: uppercase;
 }
 
-.containers-4-index h3, .containers-4-index h4, .containers-4-index p{
-  color: var(--chite);
+.containers-4-index h3, .containers-4-index h4, .containers-4-index p, .containers-4-index p a{
+  color: var(--white);
 }
 
 .containers-4-index p {
@@ -302,6 +301,10 @@ h4.product-name-1 {
 
 .container-1-index {
   background-image: url(https://quelles-dates.fr/wp-content/uploads/Saint-Valentin.jpg);
+}
+
+.container-2-index {
+  background-image: url(https://cdn.glitch.global/b305e357-23b0-4a91-92e9-c5fa249a3654/ivisionxrayban.png?v=1676050486370);
 }
 
 .container-title-index {
