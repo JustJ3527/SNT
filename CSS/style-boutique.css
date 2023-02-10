@@ -62,3 +62,81 @@
 .title-2-boutique{
   margin-left: 20px;
 }
+
+.part-2-x-boutique {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 10px 10vh 10px;
+}
+
+.part-2-1-boutique {
+  flex-direction: row;
+}
+
+.part-2-2-boutique {
+  flex-direction: row-reverse;
+}
+
+.part-2-3-boutique {
+  flex-direction: row;
+}
+
+.part-2-4-boutique {
+  flex-direction: row-reverse;
+}
+
+.img-container-boutique, .text-container-boutique {
+  width: 100%;
+  padding: 0 20px;
+  max-width: 500px;
+  min-height: 370px;
+  max-height: 400px;
+}
+
+.container-2-2-boutique {
+  background-color: var(--primary-color);
+  padding: 75px 20px;
+}
+
+
+.img-container-boutique {
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.vide-2-boutique {
+  width: 70px;
+}
+
+.text-container-boutique h3 {
+  font-family: monospace;
+  font-weight: 700;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.text-container-boutique h2 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.text-container-boutique p {
+  font-size: 20px;
+}
+
+.container-cards-x {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.container-cards-1 {
+  flex-direction: row;
+}
+
+.container-cards-2 {
+  flex-direction: row-reverse ;
+}
