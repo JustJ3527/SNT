@@ -335,3 +335,39 @@ h4.product-name-1 {
 .color-black {
   color: #000 !important;
 }
+
+.social-media-container {  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.social-media-container ul li {
+  list-style-type: none;
+  margin: 20px;
+  font-size: 40px;
+}
+
+.hz {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.separator {
+  width: 90%;
+  height: 0;
+  border: solid 2px #000;
+  border-radius: 8px;
+  margin: 15px 0;
+}
+
+.display-social-media {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
