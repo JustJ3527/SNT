@@ -140,3 +140,19 @@
 .container-cards-2 {
   flex-direction: row-reverse ;
 }
+
+.container-cards-2 .img-container-boutique {
+  background-image:  url(https://cdn.glitch.global/a37366a2-184f-489c-9974-51317d64021e/waze.png?v=1676054258310);
+  border-radius: 8px;
+}
+
+.container-cards-1 .img-container-boutique {
+  background-image:  url(https://cdn.glitch.global/a37366a2-184f-489c-9974-51317d64021e/image_2023-02-10_192247053.png?v=1676053368006);
+  border-radius: 8px;
+}
+
+.img-container-boutique {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
