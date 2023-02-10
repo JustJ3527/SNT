@@ -70,7 +70,7 @@
   align-items: stretch;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 20px 10px 10vh 10px;
+  margin: 5px 10px 10vh 10px;
 }
 
 .part-2-1-boutique {
@@ -129,6 +129,7 @@
 .text-container-boutique p {
   font-size: 20px;
   color: var(--white);
+  text-align: justify;
 }
 
 .container-cards-x {
