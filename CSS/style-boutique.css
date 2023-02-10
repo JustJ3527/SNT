@@ -20,7 +20,7 @@
 }
 
 .img-boutique-header {
-  background-image: url("https://cdn.glitch.global/a37366a2-184f-489c-9974-51317d64021e/Smart-Glasses-Hero.jpg?v=1676051877381");
+  background-image: url("https://cdn.glitch.global/a37366a2-184f-489c-9974-51317d64021e/Top_6_Reasons_Buy_AR_Smart_Glasses_2022-1280x720.png?v=1676053784301");
   width: 100%;
   height: 70vh;
   background-repeat: no-repeat;
@@ -42,4 +42,17 @@
   margin-bottom: 50px;
   padding: 10px 20px;
   color: aliceblue;
+}
+
+.waze-img {
+  margin: 20px;
+  width: 50%;
+}
+
+.title-1-boutique{
+  margin-left: 20px;
+}
+
+.title-2-boutique{
+  margin-left: 20px;
 }
