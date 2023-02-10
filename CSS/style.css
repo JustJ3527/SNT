@@ -288,11 +288,12 @@ h4.product-name-1 {
 }
 
 .containers-4-index h3, .containers-4-index h4, .containers-4-index p{
-  color: #fff;
+  color: var(--chite);
 }
 
 .containers-4-index p {
   text-decoration: none;
+  color: var(--white);
 }
 
 .underline:hover {
