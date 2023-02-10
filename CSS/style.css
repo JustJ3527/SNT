@@ -283,8 +283,17 @@ h4.product-name-1 {
 }
 
 .containers-4-index h3.event-title {
-  font-size: 30px;
+  font-size: 35px;
   text-transform: uppercase;
+  font-weight: 900;
+}
+
+.containers-4-index h4.event-paragrph {
+  font-size: 20px;
+}
+
+.containers-4-index p {
+  font-size: 15px;
 }
 
 .containers-4-index h3, .containers-4-index h4, .containers-4-index p, .containers-4-index p a{
@@ -306,6 +315,14 @@ h4.product-name-1 {
 
 .container-2-index {
   background-image: url(https://cdn.glitch.global/a37366a2-184f-489c-9974-51317d64021e/Sans%20titre.png?v=1676052241379);
+}
+
+.container-3-index {
+  background-image: url(https://newsnetwork.mayoclinic.org/n7-mcnn/7bcc9724adf7b803/uploads/2014/04/shutterstock_150333131.jpg);
+}
+
+.container-4-index {
+  background-image: url(https://cdn.glitch.global/b305e357-23b0-4a91-92e9-c5fa249a3654/actu-4.png?v=1676055206748);
 }
 
 .container-title-index {
