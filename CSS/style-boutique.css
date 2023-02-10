@@ -33,6 +33,7 @@
 
 .boutique-container {
   padding: 49px 0 0 0 !important;
+  background-color: var(--black);
 }
 
 .title-glasses {
