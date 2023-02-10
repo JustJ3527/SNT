@@ -115,16 +115,18 @@
   font-weight: 700;
   font-size: 25px;
   text-transform: uppercase;
-  color: var(--white);
+  color: var(--primary-color);
 }
 
 .text-container-boutique h2 {
   font-size: 48px;
   font-weight: 600;
+  color: var(--white);
 }
 
 .text-container-boutique p {
   font-size: 20px;
+  color: var(--white);
 }
 
 .container-cards-x {
@@ -147,12 +149,19 @@
 }
 
 .container-cards-1 .img-container-boutique {
-  background-image:  url(https://cdn.glitch.global/a37366a2-184f-489c-9974-51317d64021e/image_2023-02-10_192247053.png?v=1676053368006);
+  background-image:  url(https://cdn.glitch.global/b305e357-23b0-4a91-92e9-c5fa249a3654/DALL%C2%B7E%202023-02-10%2021.53.36%20-%20sky.png?v=1676062488004s);
   border-radius: 8px;
 }
 
-.img-container-boutique {
+.img-container-boutique.n1 {
+  background-repeat: no-repeat;
+  background-position-x: -2px;
+  background-position-y: -190px;
+  background-size: 101%;
+}
+
+.img-container-boutique.n2 {
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  block-size: 101%;
 }
