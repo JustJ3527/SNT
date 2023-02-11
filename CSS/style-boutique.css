@@ -198,3 +198,40 @@
   background-position: center;
   block-size: 101%;
 }
+
+.container-img-fullscreen {
+  width: 100%;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+section#part-3 {
+  background-color: var(--primary-color);
+}
+
+.video-fullscreen {
+  width: 100%;
+}
+
+.container-text-2-boutique {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.container-text-2-boutique h1 {
+  text-transform: uppercase;
+  font-size: 80px;
+  color: #ff6f00;
+  margin: 0 20%;
+}
+
+.container-text-2-boutique p {
+  font-size: 30px;
+}
