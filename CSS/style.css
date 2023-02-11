@@ -384,6 +384,7 @@ h4.product-name-1 {
   text-align: center;
   box-shadow: 6px 6px #000;
   border: none;
+  cursor: var(--cursor-2);
 }
 
 .buy-btn:hover {
