@@ -55,16 +55,23 @@
   width: 40%;
 }
 
+.container-title-1 {
+  width: 100%;
+  text-align: center;
+  margin-top: -5px;
+  margin-top: -48px;
+}
+
 .title-1-boutique{
-  margin-left: 20px;
   margin-top: -40px;
-  color: #fff;
+  background-color: var(--primary-color);
+  font-size: 80px;
+  color: var(--white);
 }
 
 .title-2-boutique{
-  margin-left: 20px;
-  margin-top: -10px;
-  color: #fff;
+  color: var(--secondary-color);
+  font-size: 30px;
 }
 
 .part-2-x-boutique {
