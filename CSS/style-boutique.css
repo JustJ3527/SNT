@@ -148,6 +148,22 @@
   flex-direction: row-reverse ;
 }
 
+.container-cards-3 {
+  flex-direction: row;
+}
+
+.container-cards-2 {
+  flex-direction: row-reverse;
+}
+.container-cards-4 .img-container-boutique {
+  background-image:  url(https://cdn.glitch.global/a37366a2-184f-489c-9974-51317d64021e/entry_022_01.png?v=1676127342392);
+  border-radius: 8px;
+}
+.container-cards-3 .img-container-boutique {
+  background-image:  url(https://cdn.glitch.global/a37366a2-184f-489c-9974-51317d64021e/Sans%20titre.png?v=1676126104587);
+  border-radius: 8px;
+}
+
 .container-cards-2 .img-container-boutique {
   background-image:  url(https://cdn.glitch.global/a37366a2-184f-489c-9974-51317d64021e/waze.png?v=1676054258310);
   border-radius: 8px;
@@ -166,6 +182,18 @@
 }
 
 .img-container-boutique.n2 {
+  background-repeat: no-repeat;
+  background-position: center;
+  block-size: 101%;
+}
+
+.img-container-boutique.n3 {
+  background-repeat: no-repeat;
+  background-position: center;
+  block-size: 101%;
+}
+
+.img-container-boutique.n4 {
   background-repeat: no-repeat;
   background-position: center;
   block-size: 101%;
