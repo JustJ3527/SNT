@@ -272,8 +272,9 @@ section#part-4 {
   text-align: center;
   font-weight: 900;
   text-transform: uppercase;
+  word-spacing: -8px;
 }
 
 .p-container-battery {
-  width: 70%;
+  width: 65%;
 }
