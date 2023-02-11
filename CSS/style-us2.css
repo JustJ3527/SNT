@@ -97,6 +97,7 @@ h1.title-us-2 {
 
 .text-container-us p {
     font-size: 20px;
+    text-align: justify;
 }
 
 @media screen and (max-width: 1131px){
