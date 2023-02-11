@@ -221,15 +221,22 @@ section#part-3 {
 
 .container-text-2-boutique {
   position: absolute;
-  width: 100%;
   text-align: center;
+  background: transparent;
+  margin: 0 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 12px;
+  padding: 20px 30px;
 }
 
 .container-text-2-boutique h1 {
   text-transform: uppercase;
   font-size: 80px;
   color: #ff6f00;
-  margin: 0 20%;
+  margin: 0;
 }
 
 .container-text-2-boutique p {
