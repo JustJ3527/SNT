@@ -28,7 +28,7 @@
       <link href="CSS/style.css" rel="stylesheet" type="text/css">
       <link href="CSS/style-boutique.css" rel="stylesheet" type="text/css">
       
-      <title>Ivison®--Boutique</title>
+      <title>Ivision®--Boutique</title>
   </head>  
   <body>
     <header>
@@ -113,8 +113,49 @@
           <div class="p-container-battery"><p>Jusqu'à <span style="color: #31ab35">2 semaines d'autonomie</span> en une seule charge de 1 heure !</p></div>
         </div>
       </section>
-    </div>
+      <section id="part-5">
+        <section class="comparisonSection">
+          <div class="comparisonImage beforeImage">
+            <img src="https://cdn.glitch.global/b305e357-23b0-4a91-92e9-c5fa249a3654/image5%20copie2.png?v=1676139704658" alt="before">
+          </div>
+          <div class="comparisonImage afterImage">
+            <img src="https://cdn.glitch.global/b305e357-23b0-4a91-92e9-c5fa249a3654/image6%20copie2.png?v=1676141043083" alt="after">
+          </div>
+        </section>
+      </section>
+      </div>
+    </section>
+    <section id="part-6">
+      <div class="container-img-fullscreen n2">
+        <div class="dark">
+          <div class="container-text-2-boutique n2">
+            <h1>Plus rapide que la lumière</h1>
+            <p>
+              Grâce à notre tout nouvelle <span style="background-color: #d5c112;  padding: 0 10px;">puce IV-2</span> qui permet d'afficher les d'élements <span style="background-color: #bf2ccc;  padding: 0 10px;">3x plus vite</span>. Le tout avec une <span style="background-color: #31ab35; padding: 0 10px;">faible consommation</span> d'énergie.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   </body>
+  <script type="text/javascript">
+    gsap.utils.toArray(".comparisonSection").forEach(section => {
+	    let tl = gsap.timeline({
+        scrollTrigger: {
+          trigger: section,
+          start: "center center",
+          // makes the height of the scrolling (while pinning) match the width, thus the speed remains constant (vertical/horizontal)
+          end: () => "+=" + section.offsetWidth, 
+          scrub: true,
+          pin: true,
+          anticipatePin: 1
+        },
+			  defaults: {ease: "none"}
+		  });
+      // animate the container one way...
+      tl.fromTo(section.querySelector(".afterImage"), { xPercent: 100, x: 0}, {xPercent: 0})
+        // ...and the image the opposite way (at the same time)
+        .fromTo(section.querySelector(".afterImage img"), {xPercent: -100, x: 0}, {xPercent: 0}, 0);
+    });
+  </script>
 </html>
