@@ -201,7 +201,6 @@
 
 .container-img-fullscreen {
   width: 100%;
-  height: 70vh;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -209,6 +208,10 @@
   justify-content: center;
   flex-direction: column;
   overflow: hidden;
+}
+
+.container-img-fullscreen.n1 {
+  height: 70vh;
 }
 
 section#part-3 {
@@ -253,8 +256,6 @@ section#part-4 {
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 100%;
-  height: 72vh;
   width: 100%;
   background-color: var(--grey);
 }
@@ -277,4 +278,93 @@ section#part-4 {
 
 .p-container-battery {
   width: 65%;
+}
+
+.container-img-fullscreen.n2 {
+  height: 100vh;
+}
+
+section#part-5 {
+  background-color: var(--grey);
+}
+
+.comparisonSection {
+  position: relative;
+  padding-bottom: 56.25%; /* to maintain aspect ratio (responsive!) */
+}
+
+.comparisonImage {
+  width: 100%;
+  height: 100%;
+}
+
+.afterImage {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  transform: translate(100%, 0px);
+}
+
+.afterImage img {
+  transform: translate(-100%, 0px);
+}
+
+.comparisonImage img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  object-fit: cover;
+}
+
+.container-img-fullscreen.n2 {
+  background-image: url(https://static.vecteezy.com/ti/vecteur-libre/p3/4086266-processeur-cpu-microprocesseur-ou-chip-icon-made-with-binary-code-computer-chip-ai-chipset-digital-binary-data-and-streaming-digital-code-matrix-background-with-digits-1-0-vector-illustration-vectoriel.jpg);
+}
+
+.dark {
+  background-color: #00000000;
+  animation-name: LoopBackgroundColor;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  width: 100%;
+  height: 100%;
+  transition: all .5s;
+}
+
+@keyframes LoopBackgroundColor {
+  0% {
+    background-color: #00000017;
+  }
+  25% {
+    background-color: #0000002f;
+  }
+  50% {
+    background-color: #00000017;
+  }
+  75% {
+    background-color: #0000002f;
+  }
+  100% {
+    background-color: #00000017;
+  }
+}
+
+.container-text-2-boutique.n2 {
+  background-color: transparent;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.container-text-2-boutique.n2 h1 {
+  background-color: #ff6f00;
+  font-size: 70px;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+.container-text-2-boutique.n2 p {
+  color: var(--white);
+  margin-top: 15px;
+  font-weight: 800;
 }
