@@ -417,7 +417,7 @@ h4.product-name-1 {
 }
 
 .display-informations {
-  background-color: var(--black);
+  background-color: var(--grey);
   color: #fff;
   padding: 15px 30px;
   height: 250px;
@@ -455,11 +455,12 @@ ul.names li {
 .name {
   margin-right: 10px;
   margin-left: 5px;
+  color: #000;
 }
 
 .separator-y {
   height: 224px;
-  border: solid 2px var(--grey);
+  border: solid 2px #000;
   border-radius: 20px;
   margin: 0 20px;
 }
@@ -477,6 +478,7 @@ ul.names li {
 .question {
   margin-right: 10px;
   margin-left: 5px;
+  color: #000;
 }
 
 .answer {
