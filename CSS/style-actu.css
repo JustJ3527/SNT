@@ -1,5 +1,125 @@
-.img-acteur-actu {
-    margin: 10px;
-    width: 50%;
-    height: auto;
-  }
+.container-actu {
+  background-color: var(--grey);
+  padding: 80px 20px 10px 20px;
+}
+
+.container-event {
+  width: 100%;
+  min-height: 60vh;
+  max-height: 100vh;
+  display: flex;
+  margin: 20px 0 40px 0;
+  background-color: #fff;
+}
+
+.container-event a {
+  text-decoration: underline;
+}
+
+.container-event.n1, .container-event.n3 {
+  flex-direction: row;
+}
+
+.container-event.n2, .container-event.n4 {
+  flex-direction: row-reverse;
+}
+
+.container-img-event {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 75%;
+  height: auto;
+}
+
+.container-img-event.n1 {
+  background-image: url(https://quelles-dates.fr/wp-content/uploads/Saint-Valentin.jpg);
+}
+
+.container-img-event.n2 {
+  background-image: url(https://cdn.glitch.global/a37366a2-184f-489c-9974-51317d64021e/Sans%20titre.png?v=1676052241379);
+}
+
+.container-img-event.n3 {
+  background-image: url(https://newsnetwork.mayoclinic.org/n7-mcnn/7bcc9724adf7b803/uploads/2014/04/shutterstock_150333131.jpg);
+}
+
+.container-img-event.n4 {
+  background-image: url(https://cdn.glitch.global/b305e357-23b0-4a91-92e9-c5fa249a3654/actu-4.png?v=1676055206748);
+}
+
+.container-event h1 {
+  font-size: 35px;
+  transition: all .8s;
+  border: solid 2px;
+  padding: 2px 7px;
+}
+
+.container-event.n1 h1 {
+  color: #d83333;
+}
+
+.container-event.n2 h1 {
+  color: #000;
+}
+
+.container-event.n3 h1 {
+  color: #27a4c9;
+}
+
+.container-event.n4 h1 {
+  color: #f37053;
+}
+
+.container-event p {
+  font-size: 25px;
+  transition: all .8s;
+  padding: 2px 7px;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+.container-event.n1 p {
+  color: #000;
+}
+
+/*
+.container-event.n1:hover .container-text-event.n1 {
+  background-color: #d83333;
+}
+
+.container-event.n1:hover .container-text-event.n1 h1 {
+  color: #c7d9f1;
+}
+
+.container-event.n1:hover .container-text-event.n1 p {
+  color: #fff;
+}
+*/
+
+.container-text-event {
+  width: 25%;
+  padding: 10px 25px;
+  height: 100%;
+  background-color: #fff;
+  transition: all .8s;
+}
+
+.code {
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.header-actu {
+  width: 100%;
+  text-align: center;
+  padding: 15px 10px;
+  background-color: var(--primary-color);
+}
+
+.header-actu h1 {
+  font-size: 40px;
+  margin: 0;
+  text-transform: uppercase;
+  color: var(--white);
+}
