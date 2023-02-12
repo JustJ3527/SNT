@@ -72,28 +72,28 @@
     <section id="part-2">
       <div class="container-2">
         <div class="container-4-containers">
-          <div class="container-1-index containers-4-index" id="1">
+          <div class="container-1-index containers-4-index" id="1" onclick="redirectionBoutique()">
             <div class="container-title-index">
               <h3 class="event-title">Saint-Valentin</h3>
               <h4 class="event-paragrph">Avec tout votre amour.</h4>
               <p class="event-buy"><a href="boutique.html"><span class="underline">Acheter</span> ></a></p>
             </div>
           </div>
-          <div class="container-2-index containers-4-index" id="2">
+          <div class="container-2-index containers-4-index" id="2" onclick="redirectionActu()">
             <div class="container-title-index">
               <h3 class="event-title color-black">Ivision® X Ray-Ban®</h3>
               <h4 class="event-paragrph color-black">Quand le design se mêle à la technologie.</h4>
               <p class="event-buy"><a href="actu.html" class="color-black"><span class="underline">En savoir plus</span> ></a></p>
             </div>
           </div>
-          <div class="container-3-index containers-4-index" id="3">
+          <div class="container-3-index containers-4-index" id="3" onclick="redirectionActu()">
             <div class="container-title-index">
               <h3 class="event-title">Nouvelle annonce.</h3>
               <h4 class="event-paragrph">Toujours mieux...</h4>
               <p class="event-buy"><a href="actu.html"><span class="underline">Rendez-vous le 08/03/2023 à 19h00</span> ></a></p>
             </div>
           </div>
-          <div class="container-4-index containers-4-index" id="4">
+          <div class="container-4-index containers-4-index" id="4" onclick="redirectionActu()">
             <div class="container-title-index">
               <h3 class="event-title">Pour les développeurs et les créateurs...</h3>
               <h4 class="event-paragrph">...découvrez Icode !</h4>
@@ -150,6 +150,10 @@
     <script>
       function redirectionBoutique(){
         document.location.href = "boutique.html";
+      }
+
+      function redirectionActu(){
+        document.location.href = "actu.html"
       }
 
       let mybutton = document.getElementById("myBtn");
