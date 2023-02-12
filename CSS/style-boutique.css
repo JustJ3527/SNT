@@ -490,7 +490,7 @@ section#part-5 {
 .img-container-boutique-active {
   aspect-ratio: 1/1;
   object-fit: cover;
-  width: 70%;
+  width: 65%;
   overflow: hidden;
   display: flex;
   justify-content: center;
