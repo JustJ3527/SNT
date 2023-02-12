@@ -163,3 +163,7 @@ h1.title-us-2 {
     border-radius: 8px;
     margin: 15px 0;
 }
+
+.social-media-container ul li:hover i.orange{
+    color: var(--grey);
+  }
