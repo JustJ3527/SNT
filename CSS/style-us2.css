@@ -76,7 +76,12 @@ h1.title-us-2 {
 .img-container-us {
     background-color: #fff;
     border-radius: 8px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 101%;
 }
+
+.img-container-us
 
 .vide-2-us {
     width: 70px;
