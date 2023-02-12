@@ -103,6 +103,7 @@ nav ul li.bg {
   position: relative;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 a {
@@ -144,7 +145,7 @@ li.logo {
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 h4.product-name {
@@ -161,6 +162,8 @@ h4.product-name {
   word-spacing: 5px;
   font-size: 58px;
   margin: 0;
+  height: 200px;
+  min-width: 470px;
 }
 
 .container-text {
