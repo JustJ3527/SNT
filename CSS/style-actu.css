@@ -115,11 +115,27 @@
   text-align: center;
   padding: 15px 10px;
   background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  overflow: hidden;
 }
 
-.header-actu h1 {
+.header-actu .txt2 {
   font-size: 40px;
   margin: 0;
   text-transform: uppercase;
   color: var(--white);
+  width: 100%;
+  white-space: nowrap;
+  animation: Scrollactu 20s linear infinite;
+}
+
+
+@keyframes Scrollactu {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
 }
