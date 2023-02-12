@@ -66,7 +66,7 @@
               <div class="text-container-boutique">
                 <h3>Sport</h3>
                 <h2>Dans le sport</h2>
-                <p>
+                <p id="text-typewriter">
                   Elles permettent d'avoir beaucoup d'informations juste devant vous telles que le nombre de calories brulées, la distance parcourue ou le rythme cardiaque. Ces lunettes de réalité augmentée sont un outil incroyable pour les athlètes qui cherchent à améliorer leurs performances. Elles offrent des informations en temps réel, un suivi précis de la performance tout en offrant une vision dégagée de l'environnement.
                 </p>
               </div>
@@ -201,6 +201,7 @@
         .fromTo(section.querySelector(".afterImage img"), {xPercent: -100, x: 0}, {xPercent: 0}, 0);
     });
 
+    //back-to-top button
     let mybutton = document.getElementById("myBtn");
       window.onscroll = function() {scrollFunction()};
       function scrollFunction() {
