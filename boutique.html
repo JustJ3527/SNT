@@ -59,7 +59,6 @@
         <div class="container-all boutique-container">
           <div class="container-title-1">
             <h1 class="title-1-boutique"><strong>Place à la réalité augmentée !</strong></h1>
-            <h2 class="title-2-boutique">Des lunettes utilent dans beaucoup de domaines :</h2>
           </div>
         <div class="container-all boutique-container">
           <div class="container-cards-x container-cards-1">
@@ -148,6 +147,9 @@
         </div>
       </div>
     </section>
+    <div class="top-btn-container" style="transition: all .5s;" id="myBtn">
+      <a href="#"><button type="button" name="back-to-top" class="top-btn"><i class="fa-solid fa-arrow-up"></i></button></a>
+    </div>
   </body>
   <script type="text/javascript">
     gsap.utils.toArray(".comparisonSection").forEach(section => {
@@ -155,7 +157,6 @@
         scrollTrigger: {
           trigger: section,
           start: "center center",
-          // makes the height of the scrolling (while pinning) match the width, thus the speed remains constant (vertical/horizontal)
           end: () => "+=" + section.offsetWidth, 
           scrub: true,
           pin: true,
@@ -163,10 +164,18 @@
         },
 			  defaults: {ease: "none"}
 		  });
-      // animate the container one way...
       tl.fromTo(section.querySelector(".afterImage"), { xPercent: 100, x: 0}, {xPercent: 0})
-        // ...and the image the opposite way (at the same time)
         .fromTo(section.querySelector(".afterImage img"), {xPercent: -100, x: 0}, {xPercent: 0}, 0);
     });
+
+    let mybutton = document.getElementById("myBtn");
+      window.onscroll = function() {scrollFunction()};
+      function scrollFunction() {
+        if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+          mybutton.style.opacity = "1";
+        } else {
+          mybutton.style.opacity = "0";
+        }
+      }
   </script>
 </html>
