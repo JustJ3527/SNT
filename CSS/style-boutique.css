@@ -492,6 +492,9 @@ section#part-5 {
   object-fit: cover;
   width: 70%;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .img-active i {
