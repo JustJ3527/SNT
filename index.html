@@ -117,9 +117,22 @@
           </div>
         </div>
     </section>
+    <div class="top-btn-container" style="transition: all .5s;" id="myBtn">
+      <a href="#"><button type="button" name="back-to-top" class="top-btn"><i class="fa-solid fa-arrow-up"></i></button></a>
+    </div>
     <script>
       function redirectionBoutique(){
-        document.location.href="boutique.html"; 
+        document.location.href = "boutique.html";
+      }
+
+      let mybutton = document.getElementById("myBtn");
+      window.onscroll = function() {scrollFunction()};
+      function scrollFunction() {
+        if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+          mybutton.style.opacity = "1";
+        } else {
+          mybutton.style.opacity = "0";
+        }
       }
     </script>
   </body>
