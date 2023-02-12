@@ -27,6 +27,7 @@ html {
   font-family: var(--primary-font);
   background-color: var(--white);
   cursor: var(--cursor-1);
+  scroll-behavior: smooth;
 }
 
 nav {
@@ -395,4 +396,22 @@ h4.product-name-1 {
 .buy-btn:active {
   transform: translate(6px, 6px) scale(0.95) ;
   box-shadow: none;
+}
+
+.top-btn-container {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  transition: all .5s;
+  opacity: 0;
+}
+
+.top-btn {
+  padding: 5px;
+  width: 42px;
+  height: 42px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #00000091;
+  cursor: var(--cursor-2);
 }
