@@ -387,6 +387,9 @@ section#part-5 {
 .container-img-shop {
   width: 70%;
   padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .container-details-shop {
@@ -476,4 +479,27 @@ section#part-5 {
 .cart-btn:hover {
   background-color: var(--white);
   color: #000;
+}
+
+.img-active { 
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.img-container-boutique-active {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  width: 70%;
+  overflow: hidden;
+}
+
+.img-active i {
+  font-size: 40px;
+  cursor: var(--cursor-2);
+  color: #000;
+}
+
+.img-active i:hover {
+  color: #2e2e2e;
 }
