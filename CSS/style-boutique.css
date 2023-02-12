@@ -57,16 +57,33 @@
 
 .container-title-1 {
   width: 100%;
-  text-align: center;
   margin-top: -5px;
   margin-top: -48px;
+  display: flex;
+  align-items: center;
+  height: 92px;
+  background-color: var(--primary-color);
+  overflow: hidden;
 }
 
 .title-1-boutique{
-  margin-top: -40px;
-  background-color: var(--primary-color);
   font-size: 80px;
   color: var(--white);
+  width: 100%;
+  white-space: nowrap;
+}
+
+.txt {
+  animation: Scroll 10s linear infinite;
+}
+
+@keyframes Scroll {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
 }
 
 .title-2-boutique{
