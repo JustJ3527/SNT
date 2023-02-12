@@ -166,6 +166,24 @@ h4.product-name {
   min-width: 470px;
 }
 
+#text-typewriter:after{
+  content: "";
+  animation: clignote 0.7s infinite linear;
+  width: 2px;
+  height: 52px;
+  display: inline-block;
+  background: rgb(14, 15, 22);
+}
+
+@keyframes clignote {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
 .container-text {
   padding: 10px 20%;
 }
