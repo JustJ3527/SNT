@@ -351,6 +351,15 @@ h4.product-name-1 {
   font-size: 40px;
 }
 
+.social-media-container ul li i {
+  color: #000;
+  transition: all .5s;
+}
+
+.social-media-container ul li:hover i{
+  color: var(--primary-color);
+}
+
 .hz {
   display: flex;
   align-items: center;
