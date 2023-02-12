@@ -51,10 +51,10 @@
     <section id="part-1">
       <div class="container-1 all-screen">
         <section id="left">
-          <div class="display">
+          <div class="display" style="justify-content: flex-start;">
             <div class="container-text">
               <h4 class="product-name">Ivision® glasses 2.0</h4>
-              <h1 class="slogan">You will not believe your eyes.</h1>
+              <h1 class="slogan" id="text-typewriter">You will not believe your eyes.</h1>
               <button class="buy-btn" onclick="redirectionBoutique()"><strong>Acheter</strong></button>
             </div>
           </div>
@@ -156,6 +156,7 @@
         document.location.href = "actu.html"
       }
 
+      //back-to-top button
       let mybutton = document.getElementById("myBtn");
       window.onscroll = function() {scrollFunction()};
       function scrollFunction() {
@@ -163,6 +164,23 @@
           mybutton.style.opacity = "1";
         } else {
           mybutton.style.opacity = "0";
+        }
+      }
+
+      //typewriter
+      var text = document.getElementById('text-typewriter');
+      var splitText = text.innerText.split('');
+
+      text.innerHTML = '';
+        i = 0
+        setInterval(function(){
+          AjoutDeLettre()}
+          , 100 )
+
+      function AjoutDeLettre(){
+        if(i < splitText.length){
+          text.innerHTML += splitText[i];
+          i++;
         }
       }
     </script>
