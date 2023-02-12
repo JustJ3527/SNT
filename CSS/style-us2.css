@@ -64,7 +64,7 @@ h1.title-us-2 {
     padding: 0 20px;
     max-width: 500px;
     min-height: 370px;
-    max-height: 400px;
+    max-height: 500px;
 }
 
 .container-2-2-us {
@@ -78,10 +78,26 @@ h1.title-us-2 {
     border-radius: 8px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 101%;
+    background-size: cover;
 }
 
-.img-container-us
+.img-container-us.n1 {
+    background-image: url(https://media.discordapp.net/attachments/1072213133747302471/1073670951968977028/2211LFW_de_lea_f.png);
+    background-position-x: -237px
+}
+
+.img-container-us.n2 {
+    background-image: url(https://media.wired.com/photos/59336677a88f414d9a8c7e71/master/pass/earthmine_app.jpg);
+}
+
+.img-container-us.n3 {
+    background-image: url(https://media.discordapp.net/attachments/1072220352840749127/1074260723632451635/IMG_5884.jpg?width=671&height=671);
+}
+
+.img-container-us.n4 {
+    background-image: url(https://media.lesechos.com/api/v1/images/view/5f689c043e45467b7c5a6478/1280x720/329124-ces-entreprises-savent-faire-rimer-numerique-et-ecologie-web-tete-0601157598597.jpg);
+    background-position-x: 0px;
+}
 
 .vide-2-us {
     width: 70px;
