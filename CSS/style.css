@@ -515,3 +515,92 @@ ul.names li {
 .answer {
   color: var(--secondary-color);
 }
+
+
+/* responsive */
+
+@media screen and (max-width: 1300px) {
+  .exemple-img {
+    height: 290px;
+    margin-right: -93px;
+  }
+
+  .glasses-img {
+    right: 172px;
+    top: 121px;  
+    width: 336px;
+  }
+
+  .slogan {
+    font-size: 48px;
+    height: 170px;
+  }
+
+  #text-typewriter:after {
+    height: 42px;
+  }
+
+  .buy-btn {
+    margin: 24px 0 0 0;
+  }
+
+  nav ul li {
+    font-size: 16px;
+  }
+
+  ul.names {
+    font-size: 15px;
+  }
+
+  .logo-ind {
+    height: 170px;
+  }
+
+  .separator-y {
+    height: 180px;
+  }
+
+  .display-informations {
+    height: 283px;
+    padding: 5px 30px 15px 30px;
+  }
+
+  .social-media-container {
+    font-size: 10px;
+  }
+
+  .social-media-container ul li {
+    font-size: 25px;
+  }
+
+  .containers-4-index h3.event-title {
+    color: #000;
+  }
+
+  .txt2 {
+    display: none;
+  }
+
+  .header-actu {
+    justify-content: center;
+  }
+
+  .txt3 {
+    display: block !important;
+    color: #fff;
+    margin: 0;
+    font-size: 30px;
+  }
+
+  .container-event p {
+    font-size: 16px !important;
+  }
+
+  .container-event h1 {
+    font-size: 25px !important;
+  }
+}
+
+.txt3 {
+  display: none;
+}
