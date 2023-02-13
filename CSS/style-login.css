@@ -89,3 +89,9 @@ body {
 .newsletter-container input {
     margin: 0;
 }
+
+@media screen and (max-width: 1300px) {
+    body {
+        overflow: auto;
+    }
+}
