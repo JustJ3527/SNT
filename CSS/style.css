@@ -444,6 +444,7 @@ h4.product-name-1 {
   border-radius: 20px;
   box-shadow: 0 0 20px #00000091;
   cursor: var(--cursor-2);
+  border: solid 2px #000;
 }
 
 .display-informations {
