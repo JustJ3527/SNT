@@ -523,3 +523,86 @@ section#part-5 {
 .img-active i:hover {
   color: #2e2e2e;
 }
+
+#txt-1 {
+  display: block;
+}
+
+@media screen and (max-width: 1300px) {
+  .title-glasses {
+    font-size: 130px;
+  }
+
+  #txt-1 {
+    display: none !important;
+  }
+
+  .txt {
+    animation: none;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .container-text-2-boutique h1 {
+    font-size: 50px;
+  }
+
+  .container-text-2-boutique p {
+    font-size: 25px;
+  }
+
+  .battery-item {
+    font-size: 300px;
+  }
+
+  .container-bc p {
+    margin-top: -70px;
+    font-size: 35px;
+  }
+
+  section#part-4 {
+    height: 50vh;
+  }
+
+  .container-text-2-boutique.n2 h1 {
+    font-size: 36px;
+  }
+
+  .display-shop {
+    min-height: 130vh;
+    max-height: 135vh;
+  }
+
+  .body-shop ul li {
+    font-size: 15px;
+  }
+
+  .price-container p {
+    font-size: 25px;
+  }
+
+  .cart-btn {
+    font-size: 20px;
+  }
+
+  .text-container-boutique p {
+    font-size: 18px;
+  }
+
+  .img-container-boutique, .text-container-boutique {
+    max-height: 366px;
+    min-height: 340px;
+  }
+
+  .img-container-boutique {
+    margin: 0 22px;
+  }
+
+  .text-container-boutique h2 {
+    font-size: 38px;
+  }
+
+  .img-container-boutique.n1 {
+    background-position-y: -220px;
+  }
+}
