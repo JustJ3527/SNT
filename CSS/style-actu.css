@@ -6,7 +6,7 @@
 .container-event {
   width: 100%;
   min-height: 60vh;
-  max-height: 100vh;
+  max-height: 160vh;
   display: flex;
   margin: 20px 0 40px 0;
   background-color: #fff;
@@ -82,20 +82,6 @@
 .container-event.n1 p {
   color: #000;
 }
-
-/*
-.container-event.n1:hover .container-text-event.n1 {
-  background-color: #d83333;
-}
-
-.container-event.n1:hover .container-text-event.n1 h1 {
-  color: #c7d9f1;
-}
-
-.container-event.n1:hover .container-text-event.n1 p {
-  color: #fff;
-}
-*/
 
 .container-text-event {
   width: 25%;
