@@ -167,3 +167,27 @@ h1.title-us-2 {
 .social-media-container ul li:hover i.orange{
     color: var(--grey);
   }
+
+@media screen and (max-width: 1300px){
+    .img-container-us.n1 {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .img-container-us, .text-container-us {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .img-container-us {
+        width: 100%;
+    }
+
+    nav ul li {
+        font-size: 14.8px;
+      }
+
+      h1.title-us-2 {
+        font-size: 65px;
+      }
+}
