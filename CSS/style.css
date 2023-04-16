@@ -336,7 +336,7 @@ h4.product-name-1 {
 }
 
 .container-2-index {
-  background-image: url(https://cdn.glitch.global/a37366a2-184f-489c-9974-51317d64021e/Sans%20titre.png?v=1676052241379);
+  background-image: url(https://cdn.glitch.global/b305e357-23b0-4a91-92e9-c5fa249a3654/ivisionxrayban.png?v=1676050486370);
 }
 
 .container-3-index {
@@ -517,7 +517,7 @@ ul.names li {
 }
 
 
-/* responsive */
+/* responsive écran 4/3 */
 
 @media screen and (max-width: 1300px) {
   .exemple-img {
